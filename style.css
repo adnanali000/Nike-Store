@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     padding: 0;
@@ -169,4 +173,64 @@ nav{
     color:gray;
     width: 50%;
     height: 100px;
+}
+
+/* product */
+.product{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
+}
+.productImg{
+    width: 50%;
+}
+.productDetail{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+}
+.productTitle{
+    font-weight: 900;
+    font-size: 75px;
+}
+.productDesc{
+    font-size: 18px;
+    color: gray;
+}
+.colors,.sizes{
+    display: flex;
+    margin-bottom: 20px;
+}
+.color{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+.color:last-child{
+    background-color: darkblue;
+}
+.size{
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.productButton{
+    float: right;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.productButton:hover{
+    background-color: white;
+    color: black;
 }
