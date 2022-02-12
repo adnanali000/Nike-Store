@@ -28,6 +28,7 @@ nav{
 .searchInput{
     border: none;
     background-color: transparent;
+    outline: none;
 }
 .searchInput::placeholder{
     color: lightgray;
@@ -316,4 +317,18 @@ label{
     justify-content: center;
     cursor: pointer;
     padding: 2px;
+}
+
+/* gallery */
+.gallery{
+    padding: 50px;
+    display: flex;
+}
+.galleryItem{
+    flex: 1;
+    padding: 50px;
+
+}
+.galleryImg{
+    width: 100%;
 }
