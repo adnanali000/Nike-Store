@@ -332,3 +332,31 @@ label{
 .galleryImg{
     width: 100%;
 }
+
+/* new season  */
+.newSeason{
+    display: flex;
+}
+
+.nsItem{
+    flex: 1;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.nsImg{
+    width: 100%;
+    height: 500px;
+}
+.nsTitle{
+    font-size: 40px;
+}
+.nsButton{
+    padding: 15px;
+    font-weight:800;
+    cursor: pointer;
+}
