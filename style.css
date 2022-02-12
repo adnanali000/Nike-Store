@@ -360,3 +360,58 @@ label{
     font-weight:800;
     cursor: pointer;
 }
+
+/* footer  */
+footer{
+    display: flex;
+}
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footerTitle{
+    font-size: 16px;
+}
+
+.fMenuList{
+    padding: 0;
+    list-style: none;
+}
+.fListItem{
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.footerRight{
+    flex: 1;
+    padding: 50px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput{
+    padding: 5px;
+}
+.fButton{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.fIcons{
+    display: flex;
+}
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 15px;
+    font-weight: 300;
+}
